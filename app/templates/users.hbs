@@ -1,7 +1,9 @@
-<h1>{{title}}</h1>
-{{outlet}}
-<div class="wrap wrap-defaults">
-{{#each user in model}}
-  {{ bill-box user=user }}
-{{/each}}
+<div class="well">
+  <h1 style="text-align:center;">{{title}}</h1>
+  {{outlet}}
+  <div class="wrap wrap-defaults">
+  {{#each user in model}}
+    {{ bill-box user=user }}
+  {{/each}}
+  </div>
 </div>
