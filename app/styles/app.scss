@@ -1,5 +1,6 @@
-$boxwidth: 100px;
-$boxheight: 100px;
+$boxsize: 100px;
+$boxwidth: $boxsize;
+$boxheight: $boxsize;
 
 * {
 	margin: 0;
@@ -7,7 +8,7 @@ $boxheight: 100px;
 	box-sizing: border-box;
 }
 body {
-	padding: 100px;
+	padding: 10px;
 	font-family: Arial, sans-serif;
 }
 h1, h2, h3, p {

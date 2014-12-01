@@ -1,22 +1,7 @@
-
 <h1>{{title}}</h1>
 {{outlet}}
 <div class="wrap wrap-defaults">
 {{#each user in model}}
-	<div class="box-rotate-wrap">
-    <div {{bind-attr class=":box :box-rotate direction"}}>
-			<div class="front">
-        {{user.firstName}}
-        {{user.lastName}}
-			</div>
-      <div {{bind-attr class="direction"}}">
-        {{#if user.price}}
-          {{user.price}}
-        {{else}}
-          No value
-        {{/if}}
-			</div>
-		</div>
-	</div>
+  {{ bill-box user=user }}
 {{/each}}
 </div>
