@@ -40,10 +40,6 @@ users = [{
       firstName: "Peter"
       lastName: "Ho"
     }
-
-
-
-
 ]
 
 UsersRoute = Ember.Route.extend

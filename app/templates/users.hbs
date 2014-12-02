@@ -1,9 +1,10 @@
 <div class="well">
-  <h1 style="text-align:center;">{{title}}</h1>
-  {{outlet}}
+  <h1 style="text-align:center;">{{currentUser.name}}</h1>
   <div class="wrap wrap-defaults">
   {{#each user in model}}
-    {{ bill-box user=user }}
+    {{#link-to 'detail_user'}}
+      {{ bill-box user=user }}
+    {{/link-to}}
   {{/each}}
   </div>
 </div>

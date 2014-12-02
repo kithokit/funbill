@@ -1,15 +1,11 @@
-<div class="box-rotate-wrap">
-  <div {{bind-attr class=":box :box-rotate sdirection"}}>
-    <div class="front">
-      {{user.firstName}}
-      {{user.lastName}}
-    </div>
-    <div {{bind-attr class="direction"}}>
-      {{#if user.price}}
-        {{user.price}}
-      {{else}}
-        No value
-      {{/if}}
-    </div>
-  </div>
+<div class="fixed-size-square">
+  <span>
+    {{user.firstName}}
+    {{user.lastName}}
+    {{#if user.price}}
+      {{user.price}}
+    {{else}}
+      No value
+    {{/if}}
+  </span>
 </div>

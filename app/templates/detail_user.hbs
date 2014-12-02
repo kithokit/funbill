@@ -1,0 +1,14 @@
+<div class="well">
+    <img class="logo" src="abc.png"></img>
+    <div class="wrap_user_name">
+      <h2 style="display:inline">{{model.name}}</h2>
+    </div>
+    <br></br>
+    <h3 class="net_amount_positive">
+      ${{model.net_amount}}
+    </h3>
+    {{#paper-button raised=true classNames="paper-primary"}}Transaction{{/paper-button}}
+    {{#paper-button raised=true classNames="paper-warn"}}
+      {{#link-to 'users'}}Back{{/link-to}}
+    {{/paper-button}}
+</div>
