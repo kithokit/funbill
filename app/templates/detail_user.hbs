@@ -4,7 +4,7 @@
       <h2 style="display:inline">{{model.name}}</h2>
     </div>
     <br></br>
-    <h3 class="net_amount_positive">
+    <h3 {{bind-attr class=":net_amount net_amount"}}>
       ${{model.net_amount}}
     </h3>
     {{#paper-button raised=true classNames="paper-primary"}}Transaction{{/paper-button}}

@@ -48,13 +48,17 @@ h1, h2, h3, p {
   padding: 30px;
 }
 
-.net_amount_positive {
-  color: green;
+.net_amount {
   text-align: center;
   font-size: 60px;
 }
 
-.net_amount_negative {
-  color: red;
+.positive {
+  @extend .net_amount;
+  color: green;
+}
 
+.negative {
+  @extend .net_amount;
+  color: red;
 }

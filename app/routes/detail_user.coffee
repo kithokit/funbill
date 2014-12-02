@@ -1,9 +1,9 @@
-`import Ember from "ember"`
+`import Ember from 'ember'`
 
 detail_user = {
   id: "444"
   name: "John Wong"
-  net_amount: "-15.00"
+  net_amount: "-5.00"
 }
 
 DetailUserRoute = Ember.Route.extend
