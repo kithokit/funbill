@@ -1,0 +1,26 @@
+$layer_height: 150px;
+
+.top_layer {
+  background-color: red;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: $layer_height;
+}
+
+.middle_layer {
+  background-color: yellow;
+  width: 100%;
+  position: absolute;
+  top: $layer_height;
+  bottom: 33%;
+  height: $layer_height;
+}
+
+.bottom_layer {
+  background-color: green;
+  width: 100%;
+  position: absolute;
+  top: $layer_height * 2;
+  height: 100%;
+}
