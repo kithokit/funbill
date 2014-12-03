@@ -4,7 +4,8 @@
 Router = Ember.Router.extend(location: config.locationType)
 Router.map ->
   @resource('users')
-  @route('detail_user')
+  @route 'detail_user'
+  @route 'home'
 
 `export default Router`
 

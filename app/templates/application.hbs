@@ -1,26 +1,2 @@
 {{outlet}}
-<p>
-  {{#paper-button}}Button{{/paper-button}}
-  {{#paper-button noink=true classNames="paper-primary"}}Primary (noink){{/paper-button}}
-  {{#paper-button disabled=true}}disabled{{/paper-button}}
-  {{#paper-button classNames="paper-warn"}}warn{{/paper-button}}
-</p>
-<p>
-  {{#paper-button raised=true}}Button{{/paper-button}}
-  {{#paper-button raised=true classNames="paper-primary"}}Primary{{/paper-button}}
-  {{#paper-button raised=true disabled=true}}disabled{{/paper-button}}
-  {{#paper-button raised=true classNames="paper-warn"}}warn{{/paper-button}}
-</p>
-  {{#paper-checkbox checked=value1}}A checkbox: {{value1}}{{/paper-checkbox}}
-  {{#paper-checkbox checked=value2}}A checkbox: {{#if value2}}yep{{else}}nope{{/if}}{{/paper-checkbox}}
-  {{#paper-checkbox disabled=true}}Checkbox (disabled){{/paper-checkbox}}
-  {{#paper-checkbox disabled=true checked=true}}Checkbox (disabled and checked){{/paper-checkbox}}
-  {{#paper-checkbox noink=true}}Checkbox (no ink){{/paper-checkbox}}
-<p>
-  {{#paper-radio}}A radio button{{/paper-radio}}
-  {{#paper-radio toggle=true}}Toggable radio button{{/paper-radio}}
-  {{#paper-radio disabled=true}}Disabled radio button{{/paper-radio}}
-  {{#paper-radio value="1" selected=selectedValue}}Radio button 1{{/paper-radio}}
-  {{#paper-radio value="2" selected=selectedValue}}Radio button 2{{/paper-radio}}
-  {{#paper-radio value="3" selected=selectedValue}}Radio button 3{{/paper-radio}}
-  </p>
+{{#link-to 'home'}}Home{{/link-to}}

@@ -8,8 +8,9 @@ $boxheight: $boxsize;
 	box-sizing: border-box;
 }
 body {
-	padding: 10px;
+	//padding: 10px;
 	font-family: Arial, sans-serif;
+  height: 100%;
 }
 h1, h2, h3, p {
 	margin: 0 0 1em;
@@ -61,4 +62,30 @@ h1, h2, h3, p {
 .negative {
   @extend .net_amount;
   color: red;
+}
+
+$layer_height: 150px;
+.top_layer {
+  background-color: red;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: $layer_height;
+
+}
+.middle_layer{
+  background-color: yellow;
+  width: 100%;
+  position: absolute;
+  top:    $layer_height;
+  bottom: 33%;
+  height: $layer_height;
+}
+
+.bottom_layer{
+  background-color: green;
+  width: 100%;
+  position: absolute;
+  top: ($layer_height * 2);
+  height: 100%;
 }
