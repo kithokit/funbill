@@ -1,9 +1,18 @@
-<div class='home_rect_box'>
-    <p>SIGNUP</p>
+{{#link-to 'users'}}
+<div class='home_rect_box blue'>
+  <div class='inside'>
+    {{fa-icon "arrow-up"}}SIGN UP
+  </div>
+
 </div>
-<div class='home_rect_box'>
-    <p>LOGIN</p>
+{{/link-to}}
+{{#link-to 'detail_user'}}
+<div class='home_rect_box green'>
+  <div class='inside'>
+    {{fa-icon "sign-in"}}LOG IN
+  </div>
 </div>
+{{/link-to}}
 <div class='home_rect_box'>
   <div class="box">
     <p>?</p>
