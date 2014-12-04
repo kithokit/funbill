@@ -1,26 +1,33 @@
-$layer_height: 150px;
-
-.top_layer {
-  background-color: red;
-  width: 100%;
-  position: absolute;
-  top: 0px;
+$layer_height: 100px;
+.home_rect_box {
   height: $layer_height;
+  background-color : orange;
+  position: relative;
 }
 
-.middle_layer {
-  background-color: yellow;
-  width: 100%;
+.home_rect_box p {
   position: absolute;
-  top: $layer_height;
-  bottom: 33%;
-  height: $layer_height;
+  top: 50%;
+  left: 50%;
+  font-size: 80px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.bottom_layer {
-  background-color: green;
-  width: 100%;
-  position: absolute;
-  top: $layer_height * 2;
+.box {
+  width: 50%;
   height: 100%;
+  background: white;
+  float: left;
+  position: relative;
 }
+
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 80px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
