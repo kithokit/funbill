@@ -23,6 +23,10 @@ body {
   content: "";
   display: block;
   clear: both;
+  left: 50%;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%);
 }
 
 .fixed-size-square {

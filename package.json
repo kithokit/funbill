@@ -26,6 +26,7 @@
     "ember-cli-bootstrap": "0.0.12",
     "ember-cli-coffeescript": "^0.3.2",
     "ember-cli-content-security-policy": "0.3.0",
+    "ember-cli-cordova": "0.0.13",
     "ember-cli-font-awesome": "0.0.6",
     "ember-cli-ic-ajax": "0.1.1",
     "ember-cli-inject-live-reload": "^1.3.0",
