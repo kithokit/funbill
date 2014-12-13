@@ -1,6 +1,6 @@
 @import "home";
 
-$boxsize: 150px;
+$boxsize: 10rem;
 $boxwidth: $boxsize;
 $boxheight: $boxsize;
 
@@ -19,20 +19,18 @@ body {
   /*margin: 0 0 1em;*/
 /*}*/
 
-.wrap:after {
-  content: "";
+.userbox {
   display: block;
-  clear: both;
-  left: 50%;
-  width: 100%;
-  position: absolute;
-  transform: translate(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: red;
 }
 
 .fixed-size-square {
   float: left;
   display: table;
-  margin: 10px;
+  margin: 2px;
   background: #4679bd;
   width: $boxwidth;
   height: $boxheight;

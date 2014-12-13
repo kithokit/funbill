@@ -1,10 +1,7 @@
-<div class="well">
-  <h1>{{currentUser.name}}</h1>
-  <div class="wrap">
-  {{#each user in model}}
-    {{#link-to 'detail_user'}}
-      {{ bill-box user=user }}
-    {{/link-to}}
-  {{/each}}
-  </div>
+<div class="userbox">
+{{#each user in model}}
+  {{#link-to 'detail_user'}}
+    {{ bill-box user=user }}
+  {{/link-to}}
+{{/each}}
 </div>
