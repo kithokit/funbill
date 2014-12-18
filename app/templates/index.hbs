@@ -1,5 +1,40 @@
-<ul>
-  {{#each item in model}}
-    <li>{{item}}</li>
-  {{/each}}
-</ul>
+<div class="content">
+<form>
+  <input type="text" placeholder="Full name">
+  <input type="search" placeholder="Search">
+  <textarea rows="5"></textarea>
+  <button class="btn btn-positive btn-block">Choose existing</button>
+</form>
+
+    <div class="content-padded">
+      <h1>h1. Heading</h1>
+      <h2>h2. Heading</h2>
+      <h3>h3. Heading</h3>
+      <h4>h4. Heading</h4>
+      <h5>h5. Heading</h5>
+      <h6>h6. Heading</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <ul class="table-view">
+        <li class="table-view-cell">
+          {{#link-to 'users' classNames="push-right"}}Users{{/link-to}}
+        </li>
+        <li class="table-view-cell">
+          {{#link-to 'home' classNames="push-right"}}Home{{/link-to}}
+        </li>
+        <li class="table-view-cell">
+          <a class="push-right" href="https://groups.google.com/forum/#!forum/goratchet">
+            <strong>Ratchet Google group</strong>
+          </a>
+        </li>
+        <li class="table-view-cell">
+          <a class="push-right" href="https://twitter.com/goratchet">
+            <strong>Ratchet on Twitter</strong>
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>

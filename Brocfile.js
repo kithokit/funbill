@@ -3,7 +3,8 @@
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
-//app.import('vendor/bootstrap/dist/js/bootstrap.js');
+//app.import('vendor/zeptojs/zepto.min.js');
+//app.import('vendor/custom.js');
 //app.import('vendor/bootstrap/dist/css/bootstrap.css');
 
 // Use `app.import` to add additional libraries to the generated
